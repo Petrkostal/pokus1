@@ -15,6 +15,7 @@ for i in range(5):
 cur.execute('select * from OHC_data')
 for row in cur.fetchall():
     print (row)
+    print ('hello')
 
 """
 https://api.binance.com/api/v3/exchangeInfo?symbol=BNBBTC
